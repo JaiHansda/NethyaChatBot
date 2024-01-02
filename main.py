@@ -33,7 +33,7 @@ async def is_admins(chat_id: int):
 
 @bot.on_message(filters.command("start"))
 async def start(client, message):
-        await message.reply_text("Hi! My name is [LOGIC-AI](https://t.me/logicxupdates). I'm an Artificial Intelligence")
+        await message.reply_text("Hi! My name is [Sɪᴍʀᴀɴ](https://t.me/Alpha_Bots_Updates). I'm an Artificial Intelligence")
 
 
 @bot.on_message(
@@ -86,7 +86,7 @@ async def chatboton(client, message):
     filters.command("chatbot", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def chatbot(client, message):
-    await message.reply_text(f"**Usage:**\n/chatbot [on|off] only in groups. \n ✧Join:-@Logicxupdates✧. ")
+    await message.reply_text(f"**Usage:**\n/chatbot [on|off] only in groups. \n ✧Join:- @Alpha_Bots_Update ✧. ")
 
 
 @bot.on_message(
